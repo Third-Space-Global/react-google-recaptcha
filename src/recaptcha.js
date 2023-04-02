@@ -141,7 +141,7 @@ export default class ReCAPTCHA extends React.Component {
       ...childProps
     } = this.props;
     /* eslint-enable no-unused-vars */
-    return <div {...childProps} ref={this.handleRecaptchaRef} />;
+    return <><div {...childProps} ref={this.handleRecaptchaRef} /></>;
   }
 }
 
